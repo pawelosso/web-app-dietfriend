@@ -1,0 +1,97 @@
+.loginform {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.forms-container {
+    width: 90%;
+    max-width: 400px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.singin-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: #00000030;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: relative;
+}
+
+.goToRegister {
+    transform: translateY(-100%);
+}
+
+.loginform input[type="text"],.loginform input[type="password"] {
+    background-color: #5D31B2;
+    padding: 13px 20px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 90%;
+    outline: none;
+    max-width: 300px;
+    letter-spacing: 1px;
+}
+
+.loginform input[type="text"]::placeholder, .loginform input[type="password"]::placeholder {
+    color: #d1b9ff;
+}
+
+.loginform input[type="submit"] {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: #5d31b2;
+    padding: 5px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+
+.loginform input[type="submit"].margintop-login {
+    margin-top: 40px;
+}
+
+.loginform input[type="submit"].margintop-register {
+    margin-top: 30px;
+}
+
+.loginform input[type="submit"]:hover {
+    background-color: #7751c1;
+}
+
+.forms-container p {
+    color: #d1b9ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.forms-container .errorMessage {
+    position: absolute;
+    bottom: 155px;
+    color: white;
+    cursor: none;
+}
+
+.forms-container .errorMessageRegister {
+    position: absolute;
+    bottom: 70px;
+    color: white;
+}
