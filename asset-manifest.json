@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/web-app-dietfriend/static/css/main.95263c9d.css",
+    "main.js": "/web-app-dietfriend/static/js/main.66e04859.js",
+    "static/media/background.png": "/web-app-dietfriend/static/media/background.0583e3be07306d4f1a30.png",
+    "index.html": "/web-app-dietfriend/index.html",
+    "main.95263c9d.css.map": "/web-app-dietfriend/static/css/main.95263c9d.css.map",
+    "main.66e04859.js.map": "/web-app-dietfriend/static/js/main.66e04859.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95263c9d.css",
+    "static/js/main.66e04859.js"
+  ]
+}
